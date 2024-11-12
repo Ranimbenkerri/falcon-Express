@@ -11,6 +11,7 @@ export default function Qualities() {
         <CustomQuality title='Fiabilité' desc='Livraison sécurisée de chaque colis.'/>
         <CustomQuality title='Fiabilité' desc='Livraison sécurisée de chaque colis.'/>
         <CustomQuality title='Fiabilité' desc='Livraison sécurisée de chaque colis.'/>
+        
        </div>
     </div>
   )
