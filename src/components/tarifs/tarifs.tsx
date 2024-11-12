@@ -4,7 +4,7 @@ import TarifsContent from './tarifs-content'
 
 export default function Tarifs() {
     return (
-        <div className='flex justify-center mb-32'>
+        <div className='flex justify-center '>
             <div className='flex flex-row gap-16 justify-center items-center max-w-7xl max-h-[504px]'>
                 <TarifImg />
                 <TarifsContent />

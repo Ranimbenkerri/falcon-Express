@@ -4,6 +4,7 @@ import Services from "@/components/services/services";
 import Agences from "@/components/agences/agences";
 import Qualities from "@/components/qualities/qualities";
 import Tarifs from "@/components/tarifs/tarifs";
+import Contact from "@/components/contact/contact";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Agences/>
         <Qualities/>
         <Tarifs/>
+        <Contact/>
     </div>
   );
 }

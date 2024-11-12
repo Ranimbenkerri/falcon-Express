@@ -1,5 +1,5 @@
 import { Button } from "../ui/button";
-import CheckedOption from "./cheked-option";
+import CheckedOption from "../common/cheked-option";
 export default function TarifsContent() {
     const checkText = [
         'Tarifs Transparents', 
