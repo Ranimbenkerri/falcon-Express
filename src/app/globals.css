@@ -76,3 +76,10 @@ body {
     @apply bg-background text-foreground;
   }
 }
+body {
+  background-image: url('./../assets/bg-img.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+}

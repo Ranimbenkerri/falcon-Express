@@ -18,7 +18,7 @@ export default function Navbar() {
     return (
         <div className="px-52 py-5 flex items-center justify-between sticky top-0 bg-white shadow-sm z-10">
             <h2 className="text-[24px] font-[900]  text-[#6f1dc9]">
-                Falcon<span className="text-[#FF6200] font-[900] text-base text-[24px]">Express</span>
+                Falcon<span className="text-[#FF6200] font-[900]  text-[24px]">Express</span>
             </h2>
             <div className="flex">
                 {links.map((link) => (
