@@ -8,7 +8,9 @@ export default function Qualities() {
        <QualityContent/>
        <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl max-h-96 mt-12 mb-28'>
         <CustomQuality title='Fiabilité' desc='Livraison sécurisée de chaque colis.'/>
-      
+        <CustomQuality title='Fiabilité' desc='Livraison sécurisée de chaque colis.'/>
+        <CustomQuality title='Fiabilité' desc='Livraison sécurisée de chaque colis.'/>
+        <CustomQuality title='Fiabilité' desc='Livraison sécurisée de chaque colis.'/>
        </div>
     </div>
   )
