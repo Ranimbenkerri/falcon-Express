@@ -6,8 +6,12 @@ export default function Tarifs() {
     return (
         <div className='flex justify-center '>
             <div className='flex flex-col sm:flex-row lg:flex-row gap-16 justify-center items-center max-w-7xl max-h-[504px]'>
-                <TarifImg />
-                <TarifsContent />
+                                <div className='order-2 lg:order-1'>
+                    <TarifImg />
+                </div>
+                <div className='order-1 lg:order-2'>
+                    <TarifsContent />
+                </div>
             </div>
         </div>
     )
