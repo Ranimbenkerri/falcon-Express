@@ -8,7 +8,7 @@ export default function TarifsContent() {
     ];
     return (
         <div>
-            <div className='flex justify-start max-w-[606px] max-h-[505px]'>
+            <div className='flex justify-center lg:justify-start max-w-[606px] max-h-[505px]'>
             <div className='flex flex-col justify-between  '>
                 <p className='text-[16px] font-[600] text-[#FF6200] mb-4 '>Nos Tarifs</p>
                 <h1 className='text-4xl font-[600] text-black leading-[44px] mb-3' >Des Tarifs Accessibles et Flexibles</h1>

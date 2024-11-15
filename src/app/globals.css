@@ -83,3 +83,9 @@ body {
   margin: 0;
   height: 100vh;
 }
+
+@media (max-width: 640px) {
+  body {
+    background-image: none;
+  }
+}
