@@ -32,7 +32,7 @@ export default function Navbar() {
                     </Link>
                 ))}
             </div>
-            <Button variant="default" className="bg-[#FF6200] text-[14px]  font-[600]">Voir nos tarifs</Button>
+            <Button variant="default" className="bg-[#FF6200] hover:bg-[#ff7925] text-[14px] font-[600]">Voir nos tarifs</Button>
         </div>
     );
 }

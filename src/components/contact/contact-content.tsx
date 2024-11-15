@@ -1,4 +1,3 @@
-import React from 'react'
 import CheckedOption from '../common/cheked-option'
 import SocialMedia from './social-media'
 export default function ContactContent() {
@@ -16,9 +15,6 @@ export default function ContactContent() {
                     {checkText.map((text, index) => (<CheckedOption key={index} text={text}/>))}
                 </div>
             <SocialMedia/>
-
-            
-
         </div>
     </div>
   )
