@@ -13,6 +13,7 @@ const CheckedOption: React.FC<checkedOptionPropos> = ({ text }) => {
 
 
         
+        
         </div>
         <div>
       <p className="font-[400] text-[16px] text-[#5D5567] leading-[28px]">{text}</p>
