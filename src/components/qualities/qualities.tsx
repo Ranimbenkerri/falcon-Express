@@ -12,7 +12,7 @@ export default function Qualities() {
   return (
     <div className='mt-28 flex flex-col justify-center items-center mb-32'>
       <QualityContent />
-      <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-12 max-w-7xl max-h-96 mt-12 mb-28'>
+      <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-12 max-w-7xl max-h-96 mt-12 mb-28'>
         {qualities.map(
           (quality, index) => (
             
