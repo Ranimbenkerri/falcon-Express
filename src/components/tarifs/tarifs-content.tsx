@@ -17,7 +17,8 @@ export default function TarifsContent() {
                     {checkText.map((text, index) => (<CheckedOption key={index} text={text}/>))}
                 </div>
 
-                
+
+
                 <Button className="bg-[#6f1dc9] text-[16px] font-[600]  max-w-screen-sm lg:max-w-[174px]" variant="default">Voir nos agences</Button>
             </div>
             </div>
