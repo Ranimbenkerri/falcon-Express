@@ -89,3 +89,6 @@ body {
     background-image: none;
   }
 }
+html {
+    scroll-behavior: smooth;
+}

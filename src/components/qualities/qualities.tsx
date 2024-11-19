@@ -27,18 +27,21 @@ export default function Qualities() {
   }, [])
 
   return (
+    <section id="qualities">
+
     <div className='mt-28 flex flex-col justify-center items-center mb-32'>
       <QualityContent />
       <div className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-12 max-w-7xl  max-h-[1028px] sm:max-h-96 lg:max-h-96  mt-12 mb-28'>
         {qualities.map((quality, index) => (
           <CustomQuality
-            key={index}
-            title={quality.title}
-            desc={quality.desc}
-            showLine={quality.showLine}
+          key={index}
+          title={quality.title}
+          desc={quality.desc}
+          showLine={quality.showLine}
           />
         ))}
       </div>
     </div>
+        </section>
   )
 }

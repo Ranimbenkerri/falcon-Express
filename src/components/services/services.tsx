@@ -18,6 +18,8 @@ export default function Services() {
     { icon: manutention, title: 'Manutention', desc: 'Manipulation sécurisée de vos marchandises pour un traitement sans encombre.' }
 ];
   return (
+    <section id='services'>
+
     <div className='mt-44 flex justify-center flex-col items-center'>
       <ServicesTitle/>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl max-h-[1600px] sm:max-h-96 lg:max-h-96 mt-12 mb-28'>
@@ -33,5 +35,6 @@ export default function Services() {
         )}
       </div>
     </div>
+        </section>
   )
 }

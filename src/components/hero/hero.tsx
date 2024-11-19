@@ -7,6 +7,8 @@ import HeroImage from './../../assets/hero-img.png'
 
 export default function Hero() {
     return (
+        <section id='hero'>
+
         <div>
             <div className='pt-20 flex flex-col items-center'>
                 <Badge />
@@ -15,5 +17,6 @@ export default function Hero() {
                 <Image src={HeroImage} alt='hero-img' className='h-max w-max' />
             </div>
         </div>
+        </section>
     )
 }
