@@ -9,6 +9,7 @@ import suivi from '../../assets/suivi-colis.png'
 import magasinage from '../../assets/magasinge-icon.png'
 
 export default function Services() {
+  
   const services = [
     { icon: livraison, title: 'Livraison à domicile', desc: 'Recevez vos colis directement chez vous, sans tracas.' },
     { icon: suivi, title: 'Suivi des colis', desc: 'Restez informés en temps réel de l\'emplacement et du statut de vos colis.' },
