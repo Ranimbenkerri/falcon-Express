@@ -7,7 +7,7 @@ import stockage from '../../assets/featured-icon.png'
 import livraison from '../../assets/livrasion-icon.png'
 import suivi from '../../assets/suivi-colis.png'
 import magasinage from '../../assets/magasinge-icon.png'
-
+import styles from './services.module.css'
 export default function Services() {
 
   const services = [
@@ -19,8 +19,7 @@ export default function Services() {
     { icon: manutention, title: 'Manutention', desc: 'Manipulation sécurisée de vos marchandises pour un traitement sans encombre.' }
 ];
   return (
-    <section id='services'>
-
+    <section id='services' className={styles.container}>
     <div className='mt-44 flex justify-center flex-col items-center'>
       <ServicesTitle/>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl max-h-[1600px] sm:max-h-96 lg:max-h-96 mt-12 mb-28'>

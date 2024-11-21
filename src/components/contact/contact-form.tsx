@@ -11,7 +11,7 @@ export default function ContactFrom() {
       <InputWithLabel label='Numero de telephone' type='Number' placeHolder='+213555100314'/>
       <Label htmlFor="message">Message</Label>
       <Textarea placeholder="Type your message here." className='mb-4 max-h-[120px] min-h-[80px]'/>
-      <Button className='w-full text-white bg-[#6f1dc9]'>Envoyer ma demande</Button>
+      <Button className='w-full text-white bg-[#6f1dc9] hover:bg-[#622b9d]'>Envoyer ma demande</Button>
     </div>
   )
 }
