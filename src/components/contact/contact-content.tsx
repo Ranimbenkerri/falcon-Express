@@ -13,9 +13,11 @@ export default function ContactContent() {
                 <p className='font-normal text-[18px] text-[#5D5567] leading-[30px] mb-[40px]'>Notre équipe est à votre écoute pour répondre à toutes vos questions. </p>
                 <div className="mb-10">
 
-                  
+
                     {checkText.map((text, index) => (<CheckedOption key={index} text={text}/>))}
                 </div>
+
+                
             <SocialMedia/>
         </div>
     </div>
