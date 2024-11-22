@@ -15,9 +15,7 @@ export default function ContactContent() {
 
 
                     {checkText.map((text, index) => (<CheckedOption key={index} text={text}/>))}
-                </div>
-
-                
+                </div>                
             <SocialMedia/>
         </div>
     </div>
