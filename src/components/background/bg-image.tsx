@@ -16,7 +16,6 @@ export default function BgImage() {
         left: '50%', // Centering logic
         transform: 'translateX(-50%)', // Ensures proper centering
         zIndex: -1,
-        
         overflow: 'visible',
       }}
     ></div>
