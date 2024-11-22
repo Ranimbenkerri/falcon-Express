@@ -12,6 +12,7 @@ export default function ContactContent() {
                 <h1 className='text-4xl font-[600] text-black leading-[44px] mb-3' >Restons en Contact</h1>
                 <p className='font-normal text-[18px] text-[#5D5567] leading-[30px] mb-[40px]'>Notre équipe est à votre écoute pour répondre à toutes vos questions. </p>
                 <div className="mb-10">
+                  
                     {checkText.map((text, index) => (<CheckedOption key={index} text={text}/>))}
                 </div>
             <SocialMedia/>
