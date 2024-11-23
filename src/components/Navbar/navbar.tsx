@@ -11,9 +11,11 @@ type Link = {
 const links: Link[] = [
     { name: "Acceuill", href: "#hero" },
     { name: "Nos Services", href: "#services" },
+    { name: "Suivre Mon Colis", href: "#suivi-mon-colis" },
     { name: "Nos agences", href: "#agences" },
     { name: "Nos tarifs", href: "#tarifs" },
     { name: "Nos qualites", href: "#qualities" },
+    { name: "Avis d'arrivée", href: "#avis-arivee" },
     { name: "Contact", href: "#contact" },
 ];
 
