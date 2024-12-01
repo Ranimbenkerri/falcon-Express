@@ -13,8 +13,6 @@ export default function Hero() {
                 <BgImage />
                 <Badge />
                 <HeroText /> 
-                  
-
                 <Button variant="default" className="bg-[#6f1dc9] text-[18px] p-4 py-6 font-[600] hover:bg-[#622b9d]">Voir nos tarifs</Button>
                 <Image src={HeroImage} alt='hero-img' className='h-max w-max mb-60' />
             </div>
