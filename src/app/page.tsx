@@ -7,6 +7,7 @@ import Tarifs from "@/components/tarifs/tarifs";
 import Contact from "@/components/contact/contact";
 import SuiviColis from "@/components/suivi/suivi-mon-colis";
 import AvisArivee from "@/components/Avis/avis-arrive";
+import Footer from "@/components/footer/footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Tarifs/>
         <AvisArivee/>
         <Contact/>
+        <Footer/>
     </div>
   );
 }
