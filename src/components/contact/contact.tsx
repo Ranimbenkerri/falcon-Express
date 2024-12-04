@@ -12,6 +12,7 @@ export default function Contact() {
           <ContactContent />
           <ContactFrom />
         </div>
+        
       </div>
     </section>
   )
