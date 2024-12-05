@@ -18,6 +18,7 @@ export default function Home() {
         <Tarifs/>
         <AvisArivee/>
         <Contact/>
+        
     </div>
   );
 }
